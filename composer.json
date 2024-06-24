@@ -1,5 +1,5 @@
 {
-  "name" : "theseer/phpdox",
+  "name" : "pugelarouge/phpdox",
   "description" : "A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing",
   "license" : "BSD-3-Clause",
   "authors" : [
@@ -12,6 +12,12 @@
   "support" : {
     "issues" : "https://github.com/theseer/phpdox/issues"
   },
+  "repositories": [
+    {
+      "type": "git"
+      , "url": "https://github.com/pugelarouge/fDOMDocument"
+    }
+  ],
   "require" : {
     "php" : ">=7.1",
     "ext-tokenizer" : "*",
@@ -20,9 +26,9 @@
     "ext-iconv" : "*",
     "ext-fileinfo": "*",
     "ext-mbstring": "*",
-    "theseer/fdomdocument": "^1.6",
+    "pugelarouge/fdomdocument": "^1.6",
     "theseer/directoryscanner" : "^1.3.0",
-    "phpunit/php-timer" : "^5.0",
+    "phpunit/php-timer" : "^5.0 | ^6.0",
     "nikic/php-parser" : "^4.2"
   },
   "autoload": {
